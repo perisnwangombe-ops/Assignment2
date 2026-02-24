@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UrbanNest | Modern Home Goods</title>
+<link rel="stylesheet" href="gpt-styles.css">
+
+</head>
+
+<body>
+
+<header class="header">
+  <h1 class="logo">UrbanNest</h1>
+  <div class="controls">
+    <select id="Sort products">
+      <option>Sort by</option>
+      <option>Price: Low to High</option>
+      <option>Price: High to Low</option>
+      <option>Top Rated</option>
+    </select>
+
+    <select id="Filter category">
+      <option>All Categories</option>
+      <option>Lighting</option>
+      <option>Furniture</option>
+      <option>Decor</option>
+    </select>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- PRODUCT GRID -->
+  <section class="product-grid">
+
+    <!-- PRODUCT CARD -->
+    <article class="card">
+      <img src="images/modern lamp.jpg" width="200" height="200"  alt="Modern  lamp">
+      <h2>Modern Lamp</h2>
+      <p class="price">KES 1000</p>
+      <div class="rating">★★★★★</div>
+      <a href="#modal1" class="btn">View Details</a>
+    </article>
+
+    <article class="card">
+      <img src="images/accent chair.jpg" width="200" height="200"  alt="Accent chair">
+      <h2>Accent Chair</h2>
+      <p class="price">KES 15000</p>
+      <div class="rating">★★★★☆</div>
+      <a href="#modal2" class="btn">View Details</a>
+    </article>
+
+    <article class="card">
+      <img src="images/carpet.jpg" width="200" height="200"  alt="Minimalist rug">
+      <h2>Minimal Rug</h2>
+      <p class="price">KES 20000</p>
+      <div class="rating">★★★★★</div>
+      <a href="#modal3" class="btn">View Details</a>
+    </article>
+
+    <article class="card">
+      <img src="images/book-shelf.jpg" width="200" height="200"  alt="Floating shelf">
+      <h2>Floating Shelf</h2>
+      <p class="price">KES 5000</p>
+      <div class="rating">★★★★☆</div>
+      <a href="#modal4" class="btn">View Details</a>
+    </article>
+
+    <article class="card">
+      <img src="images/fancy-sofa.jpg" width="200" height="200" alt="Modern sofa">
+      <h2>Modern Sofa</h2>
+      <p class="price">KES 25000</p>
+      <div class="rating">★★★★★</div>
+      <a href="#modal5" class="btn">View Details</a>
+    </article>
+
+    <article class="card">
+      <img src="images/modern-vase2.jpg" width="200" height="200"  alt="Decorative ceramic vase">
+      <h2>Ceramic Vase</h2>
+      <p class="price">KES 3000</p>
+      <div class="rating">★★★★☆</div>
+      <a href="#modal6" class="btn">View Details</a>
+    </article>
+
+  </section>
+
+  <!-- STATIC CART SIDEBAR -->
+  <aside class="cart">
+    <h3>Shopping Cart</h3>
+    <p>No items added</p>
+    <button class="checkout">Checkout</button>
+  </aside>
+
+</main>
+
+<!-- MODALS -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Modern Lamp</h2>
+    <p>Elegant warm-light lamp for bedside comfort.</p>
+    <button class="btn">Add to Cart</button>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Accent Seat</h2>
+    <p>Elegant ,cozy, vintage seat.</p>
+    <button class="btn">Add to Cart</button>
+  </div>
+</div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Minimal Rug</h2>
+    <p>Transform any room into a blooming garden with our -Abstract Green & Beige Wave Rug.</p>
+    <button class="btn">Add to Cart</button>
+    </div>
+</div>
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Fancy Bookself</h2>
+    <p>Decorate your space</p>
+    <button class="btn">Add to Cart</button>
+  </div>
+</div>
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Modern Seat</h2>
+    <p>Elegant ,cozy, vintage seat.Beautify your spaces</p>
+    <button class="btn">Add to Cart</button>
+  </div>
+</div>
+ <div id="modal6" class="modal">
+    <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Ceramic Vase</h2>
+    <p>Decorate your space with this abstract vase</p>
+    <button class="btn">Add to Cart</button>
+    </div>
+</div>
+</body>
+</html>
